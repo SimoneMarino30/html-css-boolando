@@ -98,6 +98,31 @@
     left: 0px;
 }
 
+.brand {
+    font-size: 13px;
+}
+
+.type {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 13px;
+    font-weight: 800;
+    color: red;
+    
+}
+
+.drop {
+    padding-left: 3px;
+    font-weight: 400;
+    color: black;
+    text-decoration: line-through;
+}
+
+/* FOOTER */
+
 .foot {
     display: flex;
     justify-content: space-between;
