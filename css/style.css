@@ -1,11 +1,10 @@
 /* NAV */
 
 .nav-bar {
-    position: fixed;
+    position: relative;
     margin-top: 20px;
-    /* debug */
-    background-color: orange;
-    width: 1000px; 
+    background-color: rgb(255, 105, 0);
+    min-width: 1000px; 
 }
 
 .gender {
@@ -43,16 +42,17 @@
 /* MAIN */
 
 .row {
+    margin-top: 100px;
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;
-    width: 100%;
+    min-width: 100%;
 }
 
 .column {
     position: relative;
     width: 320px;
-    height: fit-content;
+    /* height: fit-content; */
     margin: 25px 0 0 0;  
 }
 
@@ -62,7 +62,7 @@
     position: absolute;
     top: 10px;
     right: 0;
-    background-color: white;
+    background-color: #FFFFFF;
     font-size: 30px;
     text-align: center;
     line-height: 35px;
@@ -74,9 +74,9 @@
     position: absolute;
     bottom: 100px;
     left: 0;
-    background-color: red;
+    background-color: rgba(254, 0, 0, 1);
     font-size: 13px;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     line-height: 20px;
 }
@@ -87,9 +87,9 @@
     position: absolute;
     bottom: 100px;
     left: 37px;
-    background-color: green;
+    background-color: rgba(0, 128, 1, 1);
     font-size: 13px;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     line-height:20px;
 }
@@ -97,6 +97,30 @@
 .friendly {
     left: 0px;
 }
+
+/* :HOVER */
+
+.heart:hover {
+    color: rgba(254, 0, 0, 1);
+}
+
+.main-img {
+    display: block;
+}
+
+#change-img:hover .main-img {
+    display: none;
+}
+
+.hover-img {
+    display: none;
+}
+
+#change-img:hover .hover-img {
+    display: block;
+}
+
+/* DIDASCALIA IMMAGINI */
 
 .brand {
     font-size: 13px;
@@ -110,14 +134,14 @@
 .price {
     font-size: 13px;
     font-weight: 800;
-    color: red;
+    color: rgba(254, 0, 0, 1);
     
 }
 
 .drop {
     padding-left: 3px;
     font-weight: 400;
-    color: black;
+    color: rgba(26, 26, 26, 1);
     text-decoration: line-through;
 }
 
