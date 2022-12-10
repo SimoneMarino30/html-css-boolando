@@ -21,7 +21,7 @@ nav {
 }
 
 footer {
-	background-color: black;
+	background-color: rgba(26, 26, 26, 1);
 	min-height: 70px;
 	margin-top: 20px;
 	color: white;

@@ -126,6 +126,25 @@
 .foot {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
-      
+}
+
+.flex-footer {
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.flex-footer>a {
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+.find {
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.social>a {
+    text-align: end;
+    font-size: 13px;
+    padding-left: 5px;
 }
