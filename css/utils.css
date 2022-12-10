@@ -1,0 +1,20 @@
+/* Utils */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	/* debug */
+	height: 300px;
+	/* background-color: blueviolet; */
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+nav {
+	background-color: orange;
+	height: 70px;
+}
